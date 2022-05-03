@@ -146,6 +146,7 @@
             android:id="@+id/ll_floating_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingStart="16dp"
@@ -209,7 +210,8 @@
             <Space
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:visibility="gone" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/fabNightTheme"
@@ -220,6 +222,7 @@
                 android:src="@drawable/ic_brightness"
                 android:tint="@color/primaryText"
                 android:tooltipText="@string/dark_theme"
+                android:visibility="gone"
                 app:backgroundTint="@color/background_menu"
                 app:elevation="2dp"
                 app:fabSize="mini"
@@ -322,6 +325,7 @@
                         android:clickable="true"
                         android:contentDescription="@string/chapter_list"
                         android:focusable="true"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:paddingBottom="7dp">
 
@@ -332,6 +336,7 @@
                             android:layout_weight="1"
                             android:contentDescription="@string/chapter_list"
                             android:src="@drawable/ic_toc"
+                            android:visibility="gone"
                             app:tint="@color/primaryText"
                             tools:ignore="NestedWeights" />
 
@@ -364,7 +369,8 @@
                         android:contentDescription="@string/read_aloud"
                         android:focusable="true"
                         android:orientation="vertical"
-                        android:paddingBottom="7dp">
+                        android:paddingBottom="7dp"
+                        android:visibility="gone">
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:id="@+id/iv_read_aloud"
@@ -393,7 +399,8 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
-                        android:importantForAccessibility="no" />
+                        android:importantForAccessibility="no"
+                        android:visibility="gone" />
 
                     <!--界面按钮-->
                     <LinearLayout
@@ -404,6 +411,7 @@
                         android:clickable="true"
                         android:contentDescription="@string/interface_setting"
                         android:focusable="true"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:paddingBottom="7dp">
 
@@ -414,6 +422,7 @@
                             android:layout_weight="1"
                             android:contentDescription="@string/interface_setting"
                             android:src="@drawable/ic_interface_setting"
+                            android:visibility="gone"
                             app:tint="@color/primaryText"
                             tools:ignore="NestedWeights" />
 
@@ -445,6 +454,7 @@
                         android:clickable="true"
                         android:contentDescription="@string/setting"
                         android:focusable="true"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:paddingBottom="7dp">
 
@@ -455,6 +465,7 @@
                             android:layout_weight="1"
                             android:contentDescription="@string/setting"
                             android:src="@drawable/ic_settings"
+                            android:visibility="gone"
                             app:tint="@color/primaryText"
                             tools:ignore="NestedWeights" />
 
