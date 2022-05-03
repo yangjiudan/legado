@@ -1,3 +1,7 @@
+# Adapt for sony dpt rp1 device.
+
+
+
 [![icon_android](https://github.com/gedoor/gedoor.github.io/blob/master/images/icon_android.png)](https://play.google.com/store/apps/details?id=io.legado.play.release)
 <a href="https://data.newrank.cn/m/s.html?s=NykyOzI9MS5LNQ%3D%3D" target="_blank">
     <img src="https://img.shields.io/badge/-微信关注“开源阅读”公众号-orange.svg" alt="#" align="right">
